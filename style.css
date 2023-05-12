@@ -15,7 +15,12 @@
   background: url('backgroud.jpg');
 
 }
+.container img{
+ display: block;
+ width: 100%;
 
+
+}
 .conteudo{
  
   display: grid;
@@ -67,7 +72,7 @@
 }
 
 @keyframes pulsar {
-  
+
   0%{
     transform: scale(1);
   }50%{
