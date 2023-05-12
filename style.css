@@ -6,23 +6,21 @@
   font-family: 'Roboto', sans-serif;
 }
 
+body{
+  background: url('backgroud.jpg');
+}
+
+
 .container{
- 
   height: 100vh;
   gap: 50px;
   display: grid;
   grid-template-rows: 150px 1fr;
-  background: url('backgroud.jpg');
-
-}
-.container img{
- display: block;
- width: 100%;
-
-
-}
-.conteudo{
  
+}
+
+.conteudo{
+
   display: grid;
   place-content: center;
   place-items: center;
